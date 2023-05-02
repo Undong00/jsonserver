@@ -1,16 +1,26 @@
 {
   "name": "jsonserver",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "json-serve": "^0.1.0",
     "json-server": "^0.17.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Undong00/jsonserver.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Undong00/jsonserver/issues"
+  },
+  "homepage": "https://github.com/Undong00/jsonserver#readme",
+  "description": ""
 }
